@@ -1,0 +1,24 @@
+
+// Layout styles
+
+#fullpage {
+  overflow-x: hidden;
+  // padding-top: 111px;
+}
+
+.section {
+  .inner {
+    position: relative;
+    padding-top: $spacer * 4;
+    padding-bottom: $spacer * 4;
+  }
+}
+
+.fullwidth {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}

@@ -1,0 +1,128 @@
+
+// Navbar & Menus styles
+
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+
+  .nav-link {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-right: 1px solid $primary;
+    line-height: 1;
+    font-size: $h3-font-size;
+    font-weight: $font-weight-medium;
+    text-transform: uppercase;
+  }
+
+  .navbar-collapse {
+    flex-grow: 0;
+  }
+
+  > .container {
+    align-items: stretch;
+  }
+}
+
+#page {
+  aside {
+    .navbar-collapse {
+      position: fixed;
+      top: 0;
+      right: 15px;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      z-index: 1;
+    }
+
+    .nav-item {
+      display: block;
+      width: 14px;
+      height: 13px;
+      margin: 7px;
+      position: relative;
+    }
+
+    .nav-link {
+      > span {
+        display: none;
+        position: absolute;
+        top: -1px;
+        right: 18px;
+        transition: all .1s ease-in-out;
+        color: $white;
+        text-shadow: 0 0 2px rgba(0,0,0,1)
+      }
+
+      display: flex;
+      width: 12px;
+      height: 12px;
+      line-height: 12px;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      padding: 0;
+
+      &::before {
+        content: "";
+        display: block;
+        width: 4px;
+        height: 4px;
+        // margin: -6px 0 0 -6px;
+        border-radius: 100%;
+        border: 1px solid $black;
+        background: $white;
+        transition: all .1s ease-in-out;
+      }
+
+      &.active {
+        &::before {
+          width: 11px;
+          height: 11px;
+        }
+      }
+
+    &:hover {
+        > span {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+.menus {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  .secondary-menu {
+    order: -1;
+
+    .menu {
+      display: flex;
+      justify-content: flex-end;
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+
+      a {
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+        color: $navbar-light-color;
+
+        &:hover,
+        &:focus {
+          color: $navbar-light-active-color;
+          text-decoration: none;
+        }
+
+        &:last-child {
+          padding-right: 0;
+        }
+      }
+    }
+  }
+}

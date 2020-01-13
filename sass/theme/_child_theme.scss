@@ -1,0 +1,14 @@
+
+// Common styles
+
+body {
+  position: relative;
+  // background-color: red;
+}
+
+h2,h3,
+.h2,.h3 {
+  color: $primary;
+  font-weight: $font-weight-bold;
+  text-transform: uppercase;
+}

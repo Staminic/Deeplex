@@ -1,0 +1,32 @@
+
+// Contact form styles
+
+#contact {
+  background-color: $secondary;
+
+  h2 {
+    color: $white;
+  }
+
+  label {
+    color: $white;
+  }
+
+  input,
+  textarea {
+    border-color: $white;
+    border-radius: 0;
+  }
+
+  input[type="submit"] {
+    width: auto;
+    padding-right: $spacer * 2;
+    padding-left: $spacer * 2;
+    background-color: $white;
+    color: $secondary;
+
+    &:hover {
+      border-color: $white;
+    }
+  }
+}
