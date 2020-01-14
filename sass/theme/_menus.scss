@@ -21,6 +21,15 @@
   > .container {
     align-items: stretch;
   }
+
+  .nav-item {
+    &:last-child {
+      .nav-link {
+        padding-right: 6px;
+        border-right: none;
+      }
+    }
+  }
 }
 
 #page {
@@ -109,18 +118,23 @@
       list-style-type: none;
 
       a {
-        padding-right: 1.5rem;
-        padding-left: 1.5rem;
-        color: $navbar-light-color;
+      	background-color: $secondary;
+      	border: none;
+      	border-radius: 28px;
+      	box-shadow: none;
+      	color: $white;
+      	cursor: pointer;
+      	display: inline-block;
+      	font-size: 1rem;
+      	margin: 0;
+      	padding: 6px 24px;
+      	text-align: center;
+      	text-decoration: none;
+      	overflow-wrap: break-word;
 
         &:hover,
         &:focus {
-          color: $navbar-light-active-color;
           text-decoration: none;
-        }
-
-        &:last-child {
-          padding-right: 0;
         }
       }
     }
