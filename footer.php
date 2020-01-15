@@ -22,11 +22,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<div class="col-md-12">
 
 				<footer class="site-footer text-center" id="colophon">
-					<p class="text-center"><a href="#0"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/genoscreen-logo.svg" alt="Logo Genoscreen" class="img-fluid" style="width: 320px;" /></a></p>
+					<p class="text-center"><a href="#0"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/genoscreen-logo-center.svg" alt="Logo Genoscreen" class="img-fluid" style="width: 380px;" /></a></p>
 
 					<?php get_template_part( 'sidebar-templates/sidebar', 'footerfull' ); ?>
 
-					<p class="text-center"><a>Mentions légales</a></p>
+					<p class="legal text-center">©Genoscreen: 2001-<?php echo date("Y"); ?> | <a href="#0">Legal notice</a></p>
 				</footer>
 
 			</div>

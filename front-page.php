@@ -11,7 +11,7 @@
   $query = new WP_Query( $args );
 ?>
 
-    <aside>
+    <aside class="d-none d-lg-block">
       <?php wp_nav_menu(
         array(
           'theme_location'  => 'primary',

@@ -52,6 +52,12 @@
   .inner {
     padding-bottom: 0;
   }
+
+  .insert {
+    h3 {
+      color: $white;
+    }
+  }
 }
 
 #deeplex {
@@ -80,5 +86,9 @@
 
   .wp-block-button__link {
     background-color: $secondary;
+  }
+
+  figcaption {
+    text-align: center;
   }
 }
