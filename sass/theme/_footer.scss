@@ -18,6 +18,7 @@
 
 .legal {
   a {
-    color: $black;
+    color: $black !important;
+    text-decoration: underline !important;
   }
 }

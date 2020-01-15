@@ -68,9 +68,14 @@
     font-weight: $font-weight-bold;
   }
 
-  .gfield_checkbox {
+  .gfield_checkbox,
+  .gfield_radio {
     li {
-      margin: 0;
+      margin-bottom: 0;
+
+      label {
+        margin-left: .25rem;
+      }
     }
   }
 }

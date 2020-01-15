@@ -26,7 +26,13 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 					<?php get_template_part( 'sidebar-templates/sidebar', 'footerfull' ); ?>
 
-					<p class="legal text-center">©Genoscreen: 2001-<?php echo date("Y"); ?> | <a href="#0">Legal notice</a></p>
+					<div class="mb-3">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/iso-9001.png" alt="ISO:9001" class="img-fluid" style="height: 60px;" />
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/iso-13485.png" alt="ISO:9001" class="img-fluid" style="height: 60px;" />
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ce-ivd.png" alt="ISO:9001" class="img-fluid" style="height: 60px;" />
+					</div>
+
+					<p class="legal text-center">©Genoscreen: 2001-<?php echo date("Y"); ?> | <a class="legal-notice">Legal notice</a></p>
 				</footer>
 
 			</div>

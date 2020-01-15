@@ -136,6 +136,17 @@
 		"oAP": "/header.php",
 		"oF": 0
 		},
+	"/img/ce-ivd.png": {
+		"ft": 32768,
+		"iS": 8238,
+		"oA": 0,
+		"oAP": "/img/ce-ivd.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/img/deeplex-logo.png": {
 		"ft": 32768,
 		"iS": 144711,
@@ -177,6 +188,28 @@
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
+		},
+	"/img/iso-13485.png": {
+		"ft": 32768,
+		"iS": 101709,
+		"oA": 0,
+		"oAP": "/img/iso-13485.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/iso-9001.png": {
+		"ft": 32768,
+		"iS": 59826,
+		"oA": 0,
+		"oAP": "/img/iso-9001.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/img/kids.jpg": {
 		"ft": 16384,
