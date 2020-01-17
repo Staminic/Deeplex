@@ -38,7 +38,11 @@
 }
 
 #home {
-  padding-top: 111px;
+  padding-top: 83px;
+
+  @include media-breakpoint-up(sm) {
+    padding-top: 111px;
+  }
 
   .inner {
     padding-top: 0;

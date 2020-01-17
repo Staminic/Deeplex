@@ -39,7 +39,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<?php if ( is_front_page() && is_home() ) : ?>
 
 				<a rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" itemprop="url">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/deeplex-logo.png" alt="Logo Deplex" class="img-fluid" style="width: 170px;" />
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/deeplex-logo.png" alt="Logo Deplex" class="img-fluid" />
 				</a>
 
 				<?php else : ?>
